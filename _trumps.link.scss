@@ -27,9 +27,9 @@
  *
  * Example HTML:
  *
- * <a class="u-linkComplex" href="#">
+ * <a class="u-link-complex" href="#">
  *   Link complex
- *   <span class="u-linkComplexTarget">target</span>
+ *   <span class="u-link-complex__target">target</span>
  * </a>
  */
 .u-link-complex,
@@ -37,11 +37,13 @@
 .u-link-complex:focus,
 .u-link-complex:active {
     text-decoration: none !important;
+}
 
-    & .u-link-complex__target {
+    .u-link-complex:hover .u-link-complex__target,
+    .u-link-complex:focus .u-link-complex__target,
+    .u-link-complex:active .u-link-complex__target {
         text-decoration: underline !important;
     }
-}
 
 
 
