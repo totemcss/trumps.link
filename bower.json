@@ -1,0 +1,10 @@
+{
+  "name": "totem-trumps-link",
+  "version": "0.1.0",
+  "authors": "Florian Bouvot",
+  "main": "_trumps.link.scss",
+  "ignore": [
+    "test",
+    ".*"
+  ]
+}
