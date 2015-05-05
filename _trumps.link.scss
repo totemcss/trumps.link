@@ -75,3 +75,31 @@
 .u-link-back:before {
     content: "\00AB" "\00A0";
 }
+
+
+
+
+
+/**
+ *  Link stretch
+ *
+ * Example HTML:
+ *
+ * <div class="u-link-stretch" href="#">
+ *   <img src="path/to/image.png" alt="">
+ *   <a class="u-link-stretch__source">link</a>
+ * </div>
+ */
+.u-link-stretch {
+    position: relative !important;
+}
+
+    .u-link-stretch__source:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(#000, 0);
+    }
