@@ -1,10 +1,24 @@
 {
   "name": "totem-trumps-link",
   "version": "0.2.0",
-  "authors": "Florian Bouvot",
+  "description": "A CSS link utilities",
   "main": "_trumps.link.scss",
+  "authors": [
+    "Florian Bouvot <florian.bouvot@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "homepage": "https://github.com/totemcss/trumps.link",
+  "moduleType": [],
   "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
     "test",
-    ".*"
+    "tests"
   ]
 }
