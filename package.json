@@ -1,0 +1,24 @@
+{
+  "name": "totem-trumps-link",
+  "version": "0.2.0",
+  "description": "A CSS link utilities",
+  "main": "_trumps.link.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totemcss/trumps.link.git"
+  },
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "author": "Florian Bouvot <florian.bouvot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totemcss/trumps.link/issues"
+  },
+  "homepage": "https://github.com/totemcss/trumps.link#readme"
+}
